@@ -9,7 +9,6 @@ e.pack()
 # Put default text in the box
 e.insert(0, "Enter Your Name: ")
 
-
 def myclick():
     hello = "Hello " + e.get()
     mylabel = Label(root, text=hello)
